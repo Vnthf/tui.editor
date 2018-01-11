@@ -19,7 +19,8 @@
   "repository": "https://github.com/nhnent/tui.editor.git",
   "license": "MIT",
   "files": [
-    "dist"
+    "dist",
+    "src"
   ],
   "main": "dist/tui-editor-Editor.js",
   "devDependencies": {
