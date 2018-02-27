@@ -73,6 +73,11 @@ import './langs/ko_KR';
 import './langs/zh_CN';
 import './langs/ja_JP';
 import './langs/nl_NL';
+import './langs/es_ES';
+import './langs/de_DE';
+import './langs/ru_RU';
+import './langs/fr_FR';
+import './langs/uk_UA';
 
 const __nedInstance = [];
 
@@ -161,11 +166,11 @@ class ToastUIEditor {
 
     this.changeMode(this.options.initialEditType, true);
 
-    this.setValue(this.options.initialValue, false);
-
     this.minHeight(this.options.minHeight);
 
     this.height(this.options.height);
+
+    this.setValue(this.options.initialValue, false);
 
     extManager.applyExtension(this, this.options.exts);
 
